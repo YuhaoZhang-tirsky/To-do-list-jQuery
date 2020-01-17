@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>To-Do List</title>
+  <link rel="stylesheet" href="style.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+</head>
+<body>
+  <div class="head">
+    <div class="title">
+      <h1>My To Do List</h1>
+    </div>
+    <input class="input-area" id="input-area" placeholder="Title...">
+    <button class="add-input" id="add" onclick="addItem()">Add</button>
+  </div>
+  <div class="todo-list">
+    <ul class="todo-list-content">
+      <li class="list">Hit the gym</li class="list">
+      <li class="checked list" id="checked">Pay bills</li>
+      <li class="list">Meet George</li>
+      <li class="list">Buy eggs</li>
+      <li class="list">Read a book</li>
+      <li class="list">Organize office</li>
+    </ul>
+  </div>
+
+
+  <script type="text/javascript" src="script.js"></script>
+</body>
+</html>
